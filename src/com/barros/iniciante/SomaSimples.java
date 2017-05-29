@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class SomaSimples {
 	
 	public static void main(String[] args){
-		
 		Scanner cam = new Scanner(System.in);
 		cam.useLocale(Locale.ROOT);
 		
