@@ -12,11 +12,13 @@ public class MediaDois {
 	}
 	
 	public static String entrada(Float entrada){
+		
 		DecimalFormatSymbols simboloDecimal = new DecimalFormatSymbols(Locale.ROOT);
 		simboloDecimal.setDecimalSeparator('.');
 		simboloDecimal.setGroupingSeparator(',');
 		DecimalFormat decimalFormat = new DecimalFormat("#0.0", simboloDecimal);
 		return decimalFormat.format(entrada);
+		
 	}
 	
 	public static void main(String[] args) {
