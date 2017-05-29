@@ -9,6 +9,7 @@ public class Diferenca {
 	}
 
 	public static void main(String[] args) {
+		
 		Scanner cam = new Scanner (System.in);
 		
 		int a, b, c, d;
