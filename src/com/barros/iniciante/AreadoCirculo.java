@@ -8,10 +8,12 @@ import java.util.Scanner;
 public class AreadoCirculo {
 	
 	public static String entrada(Double entrada){
+		
 		DecimalFormatSymbols simboloDecimal = new DecimalFormatSymbols(Locale.ROOT);
 		simboloDecimal.setDecimalSeparator('.');
 		simboloDecimal.setGroupingSeparator(',');
 		DecimalFormat decimalFormat = new DecimalFormat("#0.0000", simboloDecimal);
+		
 		return decimalFormat.format(entrada);
 	}
 	
