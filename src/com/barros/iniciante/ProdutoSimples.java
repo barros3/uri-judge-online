@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ProdutoSimples {
 	
 	public static void main(String[] args) {
-		
 		Scanner cam = new Scanner(System.in);
 		
 		int a, b;
@@ -16,7 +15,6 @@ public class ProdutoSimples {
 		System.out.println("PROD = " + Math.multiplyExact(a, b));
 		
 		cam.close();
-		
 	}
 
 }
