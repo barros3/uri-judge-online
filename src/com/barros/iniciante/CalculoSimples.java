@@ -10,6 +10,7 @@ public class CalculoSimples {
 	public static Double totalDaConta = 0.0;
 	
 	public static void main(String[] args) {
+		
 		Scanner cam = new Scanner(System.in);
 		cam.useLocale(Locale.ROOT);
 		
