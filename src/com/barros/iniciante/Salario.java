@@ -12,11 +12,13 @@ public class Salario {
 	}
 	
 	public static String entrada(Double entrada){
+		
 		DecimalFormatSymbols simboloDecimal = new DecimalFormatSymbols(Locale.ROOT);
 		simboloDecimal.setDecimalSeparator('.');
 		simboloDecimal.setGroupingSeparator(',');
 		DecimalFormat decimalFormat = new DecimalFormat("#0.00", simboloDecimal);
 		return decimalFormat.format(entrada);
+		
 	}
 	
 	public static void main(String[] args) {
